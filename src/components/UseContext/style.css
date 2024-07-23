@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem auto;
+  width: max-content;
+  background: rgb(252, 244, 244);
+  border: 1px solid #EF476F;
+  padding: 20px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 30px 10px;
+  gap: 5px;
+}
+.left-section button {
+  cursor: pointer;
+  padding: 5px 5px;
+  margin-bottom: 1px;
+}
+.left-section button:hover {
+  background-color:  #e3b4bf;
+  border: 1px solid  #EF476F;
+  color:  #EF476F;
+}
+.left-section button:nth-child(1) {
+  border: 1px solid #f46b8b;
+  color: #f46b8b;
+  box-shadow:  0 0 5px #f46b8b;
+}
+.left-section button:nth-child(2) {
+  border: 1px solid #e6924e;
+  color: #e6924e;
+  box-shadow:  0 0 5px #e6924e;
+}
+.left-section button:nth-child(3) {
+  border: 1px solid #5fa217;
+  color :#5fa217;
+  box-shadow:  0 0 5px #5fa217;
+}
+.left-section button:nth-child(4) {
+  border: 1px solid #2fbeb5;
+  color :#2fbeb5;
+  box-shadow:  0 0 5px #2fbeb5;
+}
+.left-section button:nth-child(5) {
+  border: 1px solid #0e4397;
+  color :#0e4397;
+  box-shadow:  0 0 5px #0e4397;
+}
+.left-section button:nth-child(6) {
+  border: 1px solid  #9813a6;
+  color :  #9813a6;
+  box-shadow:  0 0 5px #9813a6;
+}
+.left-section button:nth-child(7) {
+  border: 1px solid #8c4b5e;
+  color :  #8c4b5e;
+  box-shadow:  0 0 5px #8c4b5e;
+}
+.left-section button:nth-child(8) {
+  border: 1px solid  #c81f1f;
+  color :  #c81f1f;
+  box-shadow:  0 0 5px #c81f1f;
+}
+.middle-upper-section {
+  display: flex;
+  border: 1px solid #EF476F;
+  padding: 10px 15px;
+  width: 435px;
+  margin-bottom: 10px;
+}
+.middle-upper-section input {
+  margin-right: 10px;
+ 
+}
+.middle-bottom-section {
+  display: flex;
+  gap: 5px;
+  border: 1px solid #EF476F;
+  padding: 10px 5px;
+}
+.middle-middle-section textarea{
+  resize: none;
+  padding: 5px;
+}
+.middle-bottom-section input {
+  padding: 5px 2px;
+  border: 1px solid red;
+}
+.middle-bottom-section button{
+  cursor: pointer;
+  width: 90px;
+  border: 1px solid #EF476F;
+  padding: 5px 5px;
+  color: #EF476F;
+  box-shadow:  0 0 2px #EF476F;
+}
+.middle-bottom-section button:hover {
+  background-color:  #e3b4bf;
+  border: 1px solid  #EF476F;
+  color:  #EF476F;
+}
+.right-section {
+  border: 1px solid #EF476F ;
+  padding: 5px;
+  font-size: 12px;
+  margin-left: 5px;
+  width: 200px;
+  color: #EF476F;
+}
